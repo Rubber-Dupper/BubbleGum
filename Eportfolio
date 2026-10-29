@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>[Your Name] | Portfolio</title>
+  <title>Brandon Reyes Vargas | Portfolio</title>
   <style>
     :root {
       --bg: #0f172a;
@@ -174,10 +174,12 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      color: var(--muted);
-      font-size: 1.2rem;
+      color: var(--text);
+      font-size: 2rem;
+      font-weight: 700;
       border: 1px solid var(--border);
       overflow: hidden;
+      letter-spacing: 0.12em;
     }
 
     .profile-meta {
@@ -416,7 +418,7 @@
   <header>
     <div class="container">
       <nav>
-        <a href="#top" class="logo"> Brandon </a>
+        <a href="#top" class="logo">Brandon</a>
         <div class="nav-links">
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
@@ -433,11 +435,11 @@
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <div class="eyebrow"> Student </div>
+          <div class="eyebrow">Student</div>
           <h1>Hello, I'm <span class="highlight">Brandon</span></h1>
           <p class="subtitle">
-            I am a Web Developer passionate about Cloud Computing.
-            I build creative solutions, solve problems with purpose, and turn ideas into meaningful work.
+            I am a Web Developer passionate about Cloud Computing. I build creative solutions, solve problems with purpose,
+            and turn ideas into meaningful work.
           </p>
 
           <div class="btn-row">
@@ -447,14 +449,12 @@
         </div>
 
         <div class="profile-card">
-          <div class="profile-image">
-            [Your Photo / Professional Headshot]
-          </div>
+          <div class="profile-image">BR</div>
           <div class="profile-meta">
-            <div class="meta-item"><span>Location</span><strong>[City, Country]</strong></div>
-            <div class="meta-item"><span>Available</span><strong>[Open to Work / Student / Freelance]</strong></div>
-            <div class="meta-item"><span>Email</span><strong>[your.email@example.com]</strong></div>
-            <div class="meta-item"><span>Portfolio</span><strong>[yourportfolio.com]</strong></div>
+            <div class="meta-item"><span>Location</span><strong>California, USA</strong></div>
+            <div class="meta-item"><span>Available</span><strong>Open to Work</strong></div>
+            <div class="meta-item"><span>Email</span><strong>reyesvargasbg7656@sbcusd.com</strong></div>
+            <div class="meta-item"><span>Focus</span><strong>Cloud Computing & Web Development</strong></div>
           </div>
         </div>
       </div>
@@ -464,16 +464,14 @@
       <div class="container">
         <h2 class="section-title">About Me</h2>
         <p class="section-intro">
-          I am a Student with a strong interest in Computer Science.
-          I enjoy learning, creating, and applying practical solutions to real-world challenges.
+          I am a student with a strong interest in Computer Science. I enjoy learning, creating, and applying practical solutions to real-world challenges.
         </p>
 
         <div class="about-grid">
           <div class="card">
             <p>
-              I am currently a Fourth year student at Aviation Academy, where I am developing my skills in
-              Computer Literacy, Developing Websites, and Troubleshooting. My work combines creativity, technical thinking,
-              and problem-solving to create work that is both useful and engaging.
+              I am currently a fourth-year student at Aviation Academy, where I am developing my skills in Computer Literacy,
+              Developing Websites, and Troubleshooting. My work combines creativity, technical thinking, and problem-solving to create work that is both useful and engaging.
             </p>
           </div>
 
@@ -506,36 +504,36 @@
           <div class="skill-card">
             <h3>Technical Skills</h3>
             <p>
-              Troubleshooting, Communications, Organization, Networking
+              Troubleshooting, communications, organization, networking, computer literacy, website development.
             </p>
             <div class="tags">
-              <span class="tag">[Tool/Skill]</span>
-              <span class="tag">[Tool/Skill]</span>
-              <span class="tag">[Tool/Skill]</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Networking</span>
             </div>
           </div>
 
           <div class="skill-card">
             <h3>Creative Skills</h3>
             <p>
-              [Communication, Design, Storytelling, Branding, Visual Thinking]
+              Communication, design, storytelling, visual thinking, and creating solutions that connect with people.
             </p>
             <div class="tags">
-              <span class="tag">[Skill]</span>
-              <span class="tag">[Skill]</span>
-              <span class="tag">[Skill]</span>
+              <span class="tag">UI Design</span>
+              <span class="tag">Branding</span>
+              <span class="tag">Problem Solving</span>
             </div>
           </div>
 
           <div class="skill-card">
             <h3>Professional Skills</h3>
             <p>
-              Collaboration, project planning, research, presentation, time management
+              Collaboration, project planning, research, presentation, time management, and adaptability.
             </p>
             <div class="tags">
               <span class="tag">Leadership</span>
               <span class="tag">Research</span>
-              <span class="tag">Problem Solving</span>
+              <span class="tag">Teamwork</span>
             </div>
           </div>
         </div>
@@ -551,70 +549,66 @@
 
         <div class="grid-2">
           <article class="project-card">
-            <h3>[Project Name 1]</h3>
+            <h3>Portfolio Website</h3>
             <p>
-              A website board. The project focused on [goal/problem], and I designed
-              and developed [solution/outcome].
+              I designed and built this personal portfolio website to present my skills, projects, and professional interests in a clear and polished way.
             </p>
             <div class="tags">
-              <span class="tag">[Technology]</span>
-              <span class="tag">[Method]</span>
-              <span class="tag">[Skill]</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Web Design</span>
             </div>
             <div class="project-links">
-              <a class="mini-link" href="[Project Link]">Live Demo</a>
-              <a class="mini-link" href="[GitHub Link]">GitHub</a>
+              <a class="mini-link" href="#top">Live Demo</a>
+              <a class="mini-link" href="#contact">Contact</a>
             </div>
           </article>
 
           <article class="project-card">
-            <h3>[Project Name 2]</h3>
+            <h3>Tech Support & Troubleshooting Projects</h3>
             <p>
-              This project involved [brief description]. I was responsible for [your role or tasks],
-              and the result helped [impact or outcome].
+              This work focuses on practical technology support, hardware troubleshooting, and improving system reliability through careful diagnosis and problem-solving.
             </p>
             <div class="tags">
-              <span class="tag">[Technology]</span>
-              <span class="tag">[Framework]</span>
-              <span class="tag">[Discipline]</span>
+              <span class="tag">IT Support</span>
+              <span class="tag">Hardware</span>
+              <span class="tag">Troubleshooting</span>
             </div>
             <div class="project-links">
-              <a class="mini-link" href="[Project Link]">Case Study</a>
-              <a class="mini-link" href="[GitHub Link]">Repository</a>
+              <a class="mini-link" href="#experience">Case Study</a>
+              <a class="mini-link" href="#skills">Skills</a>
             </div>
           </article>
 
           <article class="project-card">
-            <h3>[Project Name 3]</h3>
+            <h3>Cloud & Digital Skills Learning</h3>
             <p>
-              I developed this [solution, app, design system, research project] to address [problem].
-              It demonstrates my work in [relevant skill area].
+              I developed my understanding of digital tools and cloud-focused concepts by learning how technology systems work together to support efficient and reliable solutions.
             </p>
             <div class="tags">
-              <span class="tag">[Tool]</span>
-              <span class="tag">[Method]</span>
-              <span class="tag">[Skill]</span>
+              <span class="tag">Cloud</span>
+              <span class="tag">Learning</span>
+              <span class="tag">Technology</span>
             </div>
             <div class="project-links">
-              <a class="mini-link" href="[Project Link]">View Project</a>
-              <a class="mini-link" href="[GitHub Link]">Code</a>
+              <a class="mini-link" href="#about">Learn More</a>
+              <a class="mini-link" href="#contact">Connect</a>
             </div>
           </article>
 
           <article class="project-card">
-            <h3>[Project Name 4]</h3>
+            <h3>Student Technology Initiatives</h3>
             <p>
-              This project reflects my ability to [describe specific capability]. It was created to
-              [problem solved or value delivered].
+              This project reflects my ability to apply technical knowledge in practical settings, focusing on efficiency, communication, and building useful digital experiences.
             </p>
             <div class="tags">
-              <span class="tag">[Concept]</span>
-              <span class="tag">[Technology]</span>
-              <span class="tag">[Outcome]</span>
+              <span class="tag">Efficiency</span>
+              <span class="tag">Research</span>
+              <span class="tag">Learning</span>
             </div>
             <div class="project-links">
-              <a class="mini-link" href="[Project Link]">Learn More</a>
-              <a class="mini-link" href="[GitHub Link]">GitHub</a>
+              <a class="mini-link" href="#education">Education</a>
+              <a class="mini-link" href="#contact">Contact</a>
             </div>
           </article>
         </div>
@@ -630,32 +624,29 @@
 
         <div class="timeline">
           <div class="timeline-item">
-            <div class="timeline-date">[Month Year] – [Month Year]</div>
-            <h3>[Job Title / Role]</h3>
-            <p><strong>[Company / Organisation]</strong></p>
+            <div class="timeline-date">2023 – Present</div>
+            <h3>Student Technology Learner</h3>
+            <p><strong>Aviation Academy</strong></p>
             <p>
-              Responsibilities included [responsibility 1], [responsibility 2], and [responsibility 3].
-              I contributed to [result or impact].
+              I have developed skills in computer literacy, website development, and troubleshooting while strengthening my understanding of networking and technical support.
             </p>
           </div>
 
           <div class="timeline-item">
-            <div class="timeline-date">[Month Year] – [Month Year]</div>
-            <h3>[Internship / Volunteer Role]</h3>
-            <p><strong>[Organisation Name]</strong></p>
+            <div class="timeline-date">2024 – Present</div>
+            <h3>School-Based Tech and Support Projects</h3>
+            <p><strong>Academic and Personal Projects</strong></p>
             <p>
-              I supported [task or initiative], collaborated with [team group], and developed
-              skills in [relevant area].
+              I support technology-related learning activities, improve practical problem-solving skills, and work on projects that build both technical understanding and communication ability.
             </p>
           </div>
 
           <div class="timeline-item">
-            <div class="timeline-date">[Month Year] – [Month Year]</div>
-            <h3>[Leadership / Club / Project Title]</h3>
-            <p><strong>[Organisation / Team]</strong></p>
+            <div class="timeline-date">2024 – Present</div>
+            <h3>Student Developer & Problem Solver</h3>
+            <p><strong>Independent Projects</strong></p>
             <p>
-              I led or contributed to [initiative] by coordinating [activity], managing [responsibility],
-              and helping the team achieve [outcome].
+              I focus on building digital work, learning through structured projects, and developing useful solutions that improve efficiency and support real-world needs.
             </p>
           </div>
         </div>
@@ -667,17 +658,17 @@
         <h2 class="section-title">Education</h2>
         <div class="grid-2">
           <div class="edu-card">
-            <h3>[Degree / Program]</h3>
-            <p><strong>[University / Institution]</strong></p>
-            <p>[Year Started] – [Year Completed]</p>
-            <p>Relevant coursework: [Course 1], [Course 2], [Course 3]</p>
+            <h3>Fourth-Year Student</h3>
+            <p><strong>Aviation Academy</strong></p>
+            <p>2023 – Present</p>
+            <p>Relevant coursework: Computer Literacy, Website Development, Troubleshooting, Networking, Digital Technology</p>
           </div>
 
           <div class="edu-card">
-            <h3>[Certification / Training / Relevant Program]</h3>
-            <p><strong>[Provider / Institution]</strong></p>
-            <p>[Year or Duration]</p>
-            <p>Focus areas: [Topic 1], [Topic 2], [Topic 3]</p>
+            <h3>Technology & Computer Skills Development</h3>
+            <p><strong>Self-directed and Academic Learning</strong></p>
+            <p>Ongoing</p>
+            <p>Focus areas: Web development, cloud computing, hardware support, communication, and problem solving</p>
           </div>
         </div>
       </div>
@@ -689,12 +680,11 @@
           <div>
             <h3>Let's Connect</h3>
             <p>
-              I’m open to opportunities, collaborations, and conversations about [your field or interests].
+              I’m open to opportunities, collaborations, and conversations about web development, cloud computing, and technology support.
             </p>
           </div>
           <div class="btn-row">
             <a class="btn btn-primary" href="mailto:reyesvargasbg7656@sbcusd.com">Email Me</a>
-            <a class="btn btn-secondary" href="[LinkedIn URL]">LinkedIn</a>
           </div>
         </div>
       </div>
